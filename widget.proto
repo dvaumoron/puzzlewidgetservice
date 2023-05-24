@@ -23,7 +23,7 @@ package puzzlewidgetservice;
 
 // The widget service definition.
 service Widget {
-    rpc GetWidget (WidgetRequest) returns (Widget);
+    rpc GetWidget (WidgetRequest) returns (WidgetResponse);
     rpc Process (ProcessRequest) returns (ProcessResponse);
 }
 
@@ -49,7 +49,7 @@ message Action {
     string path = 3;
 }
 
-message Widget {
+message WidgetResponse {
     string name = 1;
     repeated Action actions = 2;
 }
