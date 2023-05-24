@@ -1,2 +1,3 @@
 # puzzlewidgetservice
-gRPC service description to process widget.
+
+[gRPC](https://grpc.io/) service description to process widget.
