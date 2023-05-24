@@ -37,6 +37,7 @@ enum MethodKind {
     CONNECT = 6;
     OPTIONS = 7;
     TRACE = 8;
+    RAW = 9; // added special category
 }
 
 message WidgetRequest {
