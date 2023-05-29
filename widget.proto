@@ -58,7 +58,7 @@ message WidgetResponse {
 message ProcessRequest {
     string widgetName = 1;
     string actionName = 2;
-    bytes data = 3;
+    map<string, bytes> files = 3;
 }
 
 message ProcessResponse {
